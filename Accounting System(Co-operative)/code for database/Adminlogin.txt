@@ -1,0 +1,24 @@
+USE [Cooperative_Login]
+GO
+
+/****** Object:  Table [dbo].[Adminlogin]    Script Date: 01/17/2014 18:46:28 ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+SET ANSI_PADDING ON
+GO
+
+CREATE TABLE [dbo].[Adminlogin](
+	[Admin_Name] [varchar](50) NOT NULL,
+	[Password] [varchar](50) NOT NULL
+) ON [PRIMARY]
+
+GO
+
+SET ANSI_PADDING OFF
+GO
+
+
